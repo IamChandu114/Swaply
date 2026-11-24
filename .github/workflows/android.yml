@@ -27,10 +27,8 @@ jobs:
       - name: Ensure gradlew is executable
         run: chmod +x ./gradlew
 
-      - name: Run Ktlint Auto-Format and Check
-        run: |
-          ./gradlew ktlintFormat --no-daemon || true
-          ./gradlew ktlintCheck --no-daemon
+      - name: Run Ktlint Check
+        run: ./gradlew ktlintCheck --no-daemon
 
       - name: Run Unit & Compose Robolectric Tests
         run: ./gradlew testDebugUnitTest --no-daemon
