@@ -144,4 +144,8 @@ dependencies {
 ktlint {
     android.set(true)
     ignoreFailures.set(false)
+    filter {
+        exclude { it.file.path.endsWith(".gradle.kts") }
+        exclude { it.file.path.contains("build") }
+    }
 }
