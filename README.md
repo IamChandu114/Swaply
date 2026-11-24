@@ -6,6 +6,14 @@ A production-quality Android application simulating a modern secondhand marketpl
 
 ---
 
+## App UI Showcase
+
+<p align="center">
+  <img src="docs/screenshots/swaply_ui_showcase.jpg" width="800" alt="Swaply App UI Showcase" />
+</p>
+
+---
+
 ## Architecture Overview
 
 Swaply follows **Clean Architecture** principles with **MVVM** and **Unidirectional Data Flow (UDF)**:
