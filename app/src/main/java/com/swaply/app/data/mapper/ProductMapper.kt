@@ -1,6 +1,5 @@
 package com.swaply.app.data.mapper
 
-import com.swaply.app.data.local.entity.DraftProductEntity
 import com.swaply.app.data.local.entity.ProductDraftEntity
 import com.swaply.app.data.local.entity.ProductEntity
 import com.swaply.app.data.remote.dto.ProductDto
