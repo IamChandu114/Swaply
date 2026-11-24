@@ -2,7 +2,7 @@
 
 [![Swaply Android CI](https://github.com/example/swaply/actions/workflows/android.yml/badge.svg)](https://github.com/example/swaply/actions/workflows/android.yml)
 
-A production-quality Android application simulating a modern secondhand marketplace (Carousell / OfferUp style) built from scratch for an Android Engineer Intern portfolio.
+A production-quality Android application simulating a modern secondhand marketplace (Carousell / OfferUp style) built for an Android.
 
 ---
 
